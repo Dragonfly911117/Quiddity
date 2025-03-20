@@ -1,11 +1,10 @@
 name: Deploy PDF to GitHub Pages
 
-on:
+on:  
   push:
     branches:
       - 'main'
       - 'CI*'
-  workflow_dispatch
 
 jobs:
   deploy:
