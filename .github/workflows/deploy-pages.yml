@@ -2,8 +2,9 @@ name: Deploy PDF to GitHub Pages
 
 on:
   push:
-    - 'main'
-    - 'CI*'
+    branches:
+      - 'main'
+      - 'CI*'
     paths:
       - 'docs/report/output.pdf'
 
